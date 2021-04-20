@@ -30,6 +30,7 @@ public class Assignment2 {
 			
 			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 			
+			
 			//retrive webpage title
 			String title = driver.getTitle();
 			System.out.println("Title is : " + title);

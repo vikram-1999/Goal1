@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Framework">
+  
+  <test name = "Check Two Number Are Not Equal">
+  	<parameter name ="num1" value ="3"/>
+  	<parameter name ="num2" value ="5"/>
+  	
+  	<classes>
+  		<class name = "frameworkdemo.Assignment6_q1_q2"></class>
+  	</classes>
+  </test>
+</suite> <!-- Suite -->
